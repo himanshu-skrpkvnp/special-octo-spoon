@@ -8,12 +8,14 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { TopHeaderComponent } from './top-header/top-header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent  ,
-    FooterComponent
+    HeaderComponent ,
+    FooterComponent,
+    TopHeaderComponent
   ],
   imports: [
     BrowserModule,
