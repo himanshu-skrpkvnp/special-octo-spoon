@@ -9,13 +9,17 @@ import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { TopHeaderComponent } from './top-header/top-header.component';
+import { TopMenuComponent } from './header/top-menu/top-menu.component';
+import { MainMenuComponent } from './header/main-menu/main-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent ,
     FooterComponent,
-    TopHeaderComponent
+    TopHeaderComponent,
+    TopMenuComponent,
+    MainMenuComponent
   ],
   imports: [
     BrowserModule,
